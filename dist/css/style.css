@@ -134,7 +134,7 @@
     bottom: 0;
     z-index: 50;
     overflow-y: auto;
-    background-color: rgba(0, 0, 0, 0.952);
+    background-color: rgb(0, 0, 0);
     transition: all 0.2s;
   }
 }
