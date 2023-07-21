@@ -10,7 +10,7 @@
 }
 @font-face {
   font-family: "Tenor";
-  src: url("../fonts/tenorsans-regular-webfont.woff2") format("woff2"), url("../../fonts/tenorsans-regular-webfont.woff") format("woff");
+  src: url("../fonts/tenorsans-regular-webfont.woff2") format("woff2"), url("../fonts/tenorsans-regular-webfont.woff") format("woff");
   font-weight: regular;
 }
 .header {
