@@ -1,0 +1,11 @@
+.slogan {
+  background-image: url("../img/sloganBG.jpg");
+  background-position: center;
+  background-size: cover;
+  border: solid #000000 2px;
+  padding: 60px 0;
+}
+.slogan__text {
+  font-size: 4rem;
+}
+/*# sourceMappingURL=style.css.map */
