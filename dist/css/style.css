@@ -10,7 +10,7 @@
 }
 @font-face {
   font-family: "Tenor";
-  src: url("../../fonts/tenorsans-regular-webfont.woff2") format("woff2"), url("../../fonts/tenorsans-regular-webfont.woff") format("woff");
+  src: url("../fonts/tenorsans-regular-webfont.woff2") format("woff2"), url("../../fonts/tenorsans-regular-webfont.woff") format("woff");
   font-weight: regular;
 }
 .header {
@@ -1472,6 +1472,7 @@
 .slider__controller-arrow {
   width: 62px;
   height: 62px;
+  cursor: pointer;
 }
 @media (min-width: 1200px) {
   .slider__controller-arrow {
