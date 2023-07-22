@@ -502,6 +502,12 @@
 @media (max-width: 599px) {
   .calculators__calculator-wrapper {
     justify-content: center;
+    height: 100%;
+  }
+}
+@media (min-width: 600px) {
+  .calculators__calculator-wrapper {
+    height: 100%;
   }
 }
 @media (min-width: 900px) {
@@ -517,11 +523,13 @@
 @media (max-width: 599px) {
   .calculators__calculator-wrapper_odd {
     justify-content: center;
+    height: 100%;
   }
 }
 @media (min-width: 600px) {
   .calculators__calculator-wrapper_odd {
     justify-content: start;
+    height: 100%;
   }
 }
 @media (min-width: 900px) {
@@ -543,17 +551,20 @@
   box-sizing: content-box;
   width: 80%;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
+  row-gap: 30px;
   flex-direction: column;
 }
 @media (max-width: 599px) {
   .calculators__calculator-text-wrapper {
     width: 100%;
+    height: 100%;
   }
 }
 @media (min-width: 600px) {
   .calculators__calculator-text-wrapper {
     width: 80%;
+    height: 52%;
   }
 }
 @media (min-width: 900px) {
@@ -688,14 +699,13 @@
 }
 @media (max-width: 599px) {
   .calculators__btn {
-    margin: 380px auto 0 auto;
+    margin: 0 auto 80px auto;
     width: 80%;
     padding: 20px 0;
   }
 }
 @media (min-width: 600px) {
   .calculators__btn {
-    margin-top: 135px;
     width: 80%;
     padding: 25px 0;
   }
@@ -789,20 +799,20 @@
 }
 @media (min-width: 600px) {
   .calculators__imgs-img_roof {
-    width: 284px;
-    height: 194px;
+    width: 38%;
+    height: 15%;
   }
   .calculators__imgs-img_facadeTiles {
-    width: 300px;
-    height: 154px;
+    width: 40%;
+    height: 13.75%;
   }
   .calculators__imgs-img_pavingSlabs {
     width: 217px;
     height: 132px;
   }
   .calculators__imgs-img_fences {
-    width: 303px;
-    height: 156px;
+    width: 48%;
+    height: 15%;
   }
   .calculators__imgs-redOne {
     top: 60%;
@@ -947,6 +957,14 @@
   .calculators__imgs-roof-2 {
     top: 45%;
     left: 62%;
+  }
+}
+@media (max-width: 385px) {
+  .calculators__imgs-img_roof, .calculators__imgs-img_facadeTiles, .calculators__imgs-img_fences, .calculators__imgs-img_pavingSlabs {
+    display: none;
+  }
+  .calculators__calculator {
+    height: 700px;
   }
 }
 .slogan {
@@ -1171,6 +1189,12 @@
   }
   .advantages__item-text {
     font-size: 1.2rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 640px) {
+  .advantages__item {
+    height: 180px;
+    width: 250px;
   }
 }
 @media (max-width: 599px) {
